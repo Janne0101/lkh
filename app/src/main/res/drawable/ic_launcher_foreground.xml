@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Briefcase icon representing job search -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,44h-8.18C65.94,42.68 66,41.35 66,40c0,-8.84 -7.16,-16 -16,-16S34,31.16 34,40c0,1.35 0.06,2.68 0.18,4H26c-4.4,0 -8,3.6 -8,8v32c0,4.4 3.6,8 8,8h48c4.4,0 8,-3.6 8,-8V52c0,-4.4 -3.6,-8 -8,-8zM50,32c4.41,0 8,3.59 8,8h-16c0,-4.41 3.59,-8 8,-8zM74,84H26V52h48v32z" />
+    <!-- Search glass overlay -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,60c0,3.31 -2.69,6 -6,6s-6,-2.69 -6,-6 2.69,-6 6,-6 6,2.69 6,6zM65,75l-5.66,-5.66C57.83,70.36 56.02,71 54.07,71c-1.16,0 -2.25,-0.24 -3.25,-0.65C53.18,71.97 54,74.39 54,77v-0.41L59,76l6,6 2.12,-2.12L65,79v-4z"
+        android:alpha="0.6" />
+</vector>

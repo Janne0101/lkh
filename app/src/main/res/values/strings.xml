@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JobSearch</string>
+
+    <!-- Navigation -->
+    <string name="nav_search">Suche</string>
+    <string name="nav_saved">Gespeichert</string>
+
+    <!-- Search -->
+    <string name="search_hint">Jobtitel, Unternehmen, Skills…</string>
+    <string name="location_hint">Ort, z.B. München</string>
+    <string name="search_prompt">Suchen Sie nach Jobs, um Ergebnisse anzuzeigen</string>
+    <string name="no_jobs_found">Keine Jobs gefunden. Bitte passen Sie Ihre Suche an.</string>
+    <string name="error_loading_jobs">Fehler beim Laden der Jobs</string>
+    <string name="job_count">%d Jobs gefunden</string>
+    <string name="filter_jobs">Filter</string>
+
+    <!-- Filter Dialog -->
+    <string name="filter_title">Jobs filtern</string>
+    <string name="job_type_label">Beschäftigungsart</string>
+    <string name="remote_only_label">Nur Remote-Jobs</string>
+    <string name="apply">Anwenden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="reset">Zurücksetzen</string>
+
+    <!-- Job Detail -->
+    <string name="salary_not_specified">Gehalt nicht angegeben</string>
+    <string name="posted_on">Veröffentlicht am: %s</string>
+    <string name="apply_now">Jetzt bewerben</string>
+    <string name="job_description">Stellenbeschreibung</string>
+    <string name="job_details">Details</string>
+    <string name="company_label">Unternehmen</string>
+    <string name="location_label">Standort</string>
+    <string name="job_type_info">Beschäftigungsart</string>
+    <string name="provider_label">Quelle</string>
+    <string name="remote_badge">Remote</string>
+    <string name="error_opening_url">Link konnte nicht geöffnet werden</string>
+
+    <!-- Saved -->
+    <string name="saved_jobs_title">Gespeicherte Jobs</string>
+    <string name="saved_count">%d gespeicherte Jobs</string>
+    <string name="no_saved_jobs">Noch keine Jobs gespeichert.\nTippen Sie auf das Lesezeichen-Symbol, um Jobs zu speichern.</string>
+    <string name="job_saved">Job gespeichert</string>
+    <string name="job_removed">Job entfernt</string>
+
+    <!-- Providers -->
+    <string name="provider_indeed">Indeed</string>
+    <string name="provider_linkedin">LinkedIn</string>
+    <string name="provider_stepstone">StepStone</string>
+    <string name="provider_xing">Xing</string>
+
+    <!-- Content Descriptions -->
+    <string name="bookmark_icon">Lesezeichen</string>
+    <string name="provider_logo">Anbieter-Logo</string>
+    <string name="back_button">Zurück</string>
+</resources>
