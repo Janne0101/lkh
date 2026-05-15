@@ -53,4 +53,25 @@
     <string name="bookmark_icon">Lesezeichen</string>
     <string name="provider_logo">Anbieter-Logo</string>
     <string name="back_button">Zurück</string>
+
+    <!-- Alerts / Notifications -->
+    <string name="nav_alerts">Benachrichtigungen</string>
+    <string name="no_alerts">Noch keine Job-Alerts eingerichtet.\nTippe auf + um einen neuen Alert anzulegen.</string>
+    <string name="add_alert">Alert anlegen</string>
+    <string name="add_alert_title">Neuer Job-Alert</string>
+    <string name="alert_keyword_hint">Suchbegriff (z.B. Android, Marketing)</string>
+    <string name="alert_keyword_required">Bitte Suchbegriff oder Ort eingeben</string>
+    <string name="alert_created">Job-Alert angelegt</string>
+    <string name="alert_deleted">Alert gelöscht</string>
+    <string name="alert_count">%d aktive Alerts</string>
+    <string name="check_interval_label">Prüfintervall</string>
+    <string name="interval_1h">Stündlich</string>
+    <string name="interval_6h">Alle 6 Stunden</string>
+    <string name="interval_12h">Alle 12 Stunden</string>
+    <string name="interval_24h">Täglich</string>
+    <string name="save">Speichern</string>
+    <string name="grant">Erlauben</string>
+    <string name="notification_permission_title">Benachrichtigungen aktivieren</string>
+    <string name="notification_permission_rationale">Damit du über neue passende Jobs informiert wirst, benötigt die App die Erlaubnis für Benachrichtigungen.</string>
+    <string name="notification_permission_denied">Ohne Benachrichtigungserlaubnis können keine Job-Alerts angezeigt werden.</string>
 </resources>

@@ -17,4 +17,10 @@
         android:label="@string/nav_saved"
         android:layout="@layout/fragment_saved" />
 
+    <fragment
+        android:id="@+id/navigation_alerts"
+        android:name="com.jobsearch.app.ui.alerts.AlertsFragment"
+        android:label="@string/nav_alerts"
+        android:layout="@layout/fragment_alerts" />
+
 </navigation>
