@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/portalsFragment"
+        android:icon="@drawable/ic_portals"
+        android:title="Portale" />
+
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@drawable/ic_favorites"
+        android:title="Favoriten" />
+
+    <item
+        android:id="@+id/compareFragment"
+        android:icon="@drawable/ic_compare"
+        android:title="Vergleich" />
+
+</menu>

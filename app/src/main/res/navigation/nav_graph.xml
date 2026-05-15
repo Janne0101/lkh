@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/portalsFragment">
+
+    <fragment
+        android:id="@+id/portalsFragment"
+        android:name="com.wohnungssuche.app.ui.portals.PortalsFragment"
+        android:label="Portale"
+        tools:layout="@layout/fragment_portals" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.wohnungssuche.app.ui.favorites.FavoritesFragment"
+        android:label="Favoriten"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_addApartmentFragment"
+            app:destination="@id/addApartmentFragment" />
+        <action
+            android:id="@+id/action_favoritesFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/compareFragment"
+        android:name="com.wohnungssuche.app.ui.compare.CompareFragment"
+        android:label="Vergleich"
+        tools:layout="@layout/fragment_compare" />
+
+    <fragment
+        android:id="@+id/addApartmentFragment"
+        android:name="com.wohnungssuche.app.ui.favorites.AddApartmentFragment"
+        android:label="Wohnung hinzufügen"
+        tools:layout="@layout/fragment_add_apartment" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.wohnungssuche.app.ui.detail.DetailFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="apartmentId"
+            app:argType="long" />
+    </fragment>
+
+</navigation>
